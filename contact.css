@@ -130,7 +130,9 @@ footer p {
     }
 
     nav ul li {
-        margin-right: 2px; 
+        margin-right: 3px;
+        font-size: smaller;
+ 
     }
 
     #contact h2 {

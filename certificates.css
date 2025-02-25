@@ -139,9 +139,13 @@ footer {
     body {
         padding: 10px;
     }
-
+    header {
+        padding: 10px;
+    }
     nav ul li {
-        margin-right: 2px;
+        margin-right: 3px;
+        font-size: smaller;
+
     }
 
     #certificates h2 {
