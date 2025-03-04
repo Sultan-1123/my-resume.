@@ -89,11 +89,11 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    border-radius: 5px;
     margin-top: 20px;
 }
-
 /* Responsive Design */
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
     nav ul li {
         margin-right: 10px;
     }
@@ -130,7 +130,7 @@ footer {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 375px) {
     body {
         padding: 10px;
     }
@@ -142,7 +142,6 @@ footer {
     nav ul li {
         margin-right: 3px;
         font-size: smaller;
-
     }
 
     #projects h2 {

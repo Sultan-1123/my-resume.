@@ -82,18 +82,17 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 40px;
-    border-radius: 12px;
+    border-radius: 5px;
     font-size: 1em;
 }
 
 footer p {
     margin: 0;
 }
-
 /* Responsive Design */
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
     nav ul li {
-        margin-right: 10px; 
+        margin-right: 10px;
     }
 
     #contact h2 {
@@ -106,7 +105,6 @@ footer p {
 }
 
 @media (max-width: 768px) {
-
     header h1 {
         font-size: 1.6em;
     }
@@ -120,7 +118,7 @@ footer p {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 375px) {
     body {
         padding: 10px;
     }
@@ -132,7 +130,6 @@ footer p {
     nav ul li {
         margin-right: 3px;
         font-size: smaller;
- 
     }
 
     #contact h2 {
