@@ -90,6 +90,20 @@ footer {
     }
 }
 
+@media (max-width: 992px) {
+    nav ul li {
+        margin-right: 8px;
+    }
+
+    #education h2 {
+        font-size: 1.7em;
+    }
+
+    #education p {
+        font-size: 0.98em;
+    }
+}
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.6em;
@@ -101,6 +115,29 @@ footer {
 
     #education p {
         font-size: 0.95em;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 8px;
+    }
+
+    header {
+        padding: 8px;
+    }
+
+    nav ul li {
+        margin-right: 2px;
+        font-size: smaller;
+    }
+
+    #education h2 {
+        font-size: 1.5em;
+    }
+
+    #education p {
+        font-size: 0.92em;
     }
 }
 

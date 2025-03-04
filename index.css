@@ -113,8 +113,21 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
+    nav ul li {
+        margin-right: 8px;
+    }
 
+    #home h2, #goals h2 {
+        font-size: 1.4em;
+    }
+
+    #goals ul li {
+        font-size: 1.05em;
+    }
+}
+
+@media (max-width: 768px) {
     header h1 {
         font-size: 1.6em;
     }
@@ -125,6 +138,29 @@ footer {
 
     #goals ul li {
         font-size: 1.1em;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 8px;
+    }
+
+    header {
+        padding: 8px;
+    }
+
+    nav ul li {
+        margin-right: 2px;
+        font-size: smaller;
+    }
+
+    #home h2, #goals h2 {
+        font-size: 1.3em;
+    }
+
+    #goals ul li {
+        font-size: 1em;
     }
 }
 
